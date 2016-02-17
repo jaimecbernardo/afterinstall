@@ -10,7 +10,8 @@ sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian trusty co
 sudo apt-get update &&
 sudo apt-get dist-upgrade &&
 sudo apt-get install \
-byobu screen mesa-utils dconf-tools lm-sensors \
+byobu screen nautilus-open-terminal \
+mesa-utils dconf-tools lm-sensors \
 gparted smartmontools gsmartcontrol acpi gksu \
 rar p7zip-full p7zip-rar lzop mmv tree htop dstat iotop \
 wireshark nmap wavemon links lynx curl \
