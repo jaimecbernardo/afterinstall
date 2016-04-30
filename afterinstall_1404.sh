@@ -18,7 +18,7 @@ wireshark nmap wavemon links lynx curl \
 minicom picocom playonlinux k3b qemu-system-x86 qemu-utils \
 build-essential manpages-posix-dev doxygen doxygen-gui \
 subversion subversion-tools git-all gitk \
-automake autoconf cmake cmake-curses-gui ant \
+automake autoconf cmake cmake-curses-gui ant scons \
 valgrind ddd kcachegrind indent ccache kdiff3 \
 clang llvm-dev golang sqlite3 cpphs \
 python-all-dev python3-all-dev python-pip \
