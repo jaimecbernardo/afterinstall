@@ -1,3 +1,5 @@
+#!/bin/bash -ex
+
 sudo sed -i '/partner$/s/^# *//' /etc/apt/sources.list &&
 sudo add-apt-repository -y ppa:webupd8team/java &&
 sudo apt-add-repository -s 'http://linux.dropbox.com/ubuntu main' &&
