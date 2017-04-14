@@ -1,5 +1,10 @@
 #!/bin/bash -ex
 
+if [ "$EUID" -ne 0 ]; then
+  echo "Please run as root: sudo $0"
+  exit 1
+fi
+
 sudo sed -i '/partner$/s/^# *//' /etc/apt/sources.list
 
 sudo add-apt-repository -y ppa:webupd8team/java

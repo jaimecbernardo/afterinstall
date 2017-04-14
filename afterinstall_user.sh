@@ -1,5 +1,10 @@
 #!/bin/bash -ex
 
+if [ "$EUID" -eq 0 ]; then
+  echo "This script is not meant to be run as root, please run without sudo."
+  exit 1
+fi
+
 echo ========== USER Base ==========
 
 ccache -M 10G
